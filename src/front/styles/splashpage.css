@@ -1,0 +1,92 @@
+.splash-banner{
+    width: 100%;
+    margin: 1.5rem;
+    border: 1px solid black;
+    border-radius: 0.356rem;
+    padding: 0.7rem;
+    background-color: #709176;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 500;
+
+}
+.splash-panels{
+    padding: 0.7rem;
+
+}
+.panels-top{
+    display:flex;
+    gap: 2rem;
+    justify-content: space-around;
+    color: #f2d0dd;
+    
+
+}
+.panels-bottom{
+    display:flex;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-top: 2rem;
+    color: #709176;
+    
+}
+.panel{
+    width: 400px;
+    text-align: center;
+
+}
+.background{
+    color: #333333;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.panel-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px; /* Adjust the gap between panels */
+}
+
+.panel {
+width: calc(33.33% - 20px); /* Adjust panel width based on the number of panels */
+background-color: #f2f2f2;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: #709176;
+}
+
+.panel h2 {
+margin-bottom: 10px;
+font-size: 1.5rem;
+color: white;
+letter-spacing: 1px;
+
+}
+
+.panel p {
+font-size: 1rem;
+line-height: 1.5;
+color: white;
+letter-spacing: 1px;
+
+
+}
+.panel p {
+font-size: 1rem;
+line-height: 1.5;
+color: white;
+letter-spacing: 1px;
+
+
+}
+
+.paneltitle{
+font-size: 1rem;
+line-height: 1.5;
+color: white;
+letter-spacing: 1px;
+}
